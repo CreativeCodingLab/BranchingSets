@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Pathway Explorer</title>
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <link rel="stylesheet" href="styles/theme.css"/>
+    <link rel="stylesheet" href="styles/tree.css"/>
+    <link rel="stylesheet" href="styles/node.css"/>
+    <link rel="stylesheet" href="styles/DemosController.css"/>
+    <link rel="stylesheet" href="styles/DemoExplorer.css"/>
+    <link rel="stylesheet" href="styles/DemoParallax.css"/>
+
+    <!-- External libraries -->
+    <script src="js/libs/d3-3.4.11.js"></script>
+    <script src="js/libs/jquery-2.1.1.js"></script>
+    <script src="js/libs/underscore-1.7.0.js"></script>
+    <script src="js/libs/vec2d.js"></script>
+    <script src="js/libs/rect2d.js"></script>
+    <script src="js/libs/queue.js"></script>
+    <script src="js/libs/clusterfck-0.1.js"></script>
+    <script src="js/libs/color-1.0.1.js"></script>
+
+    <!-- Application scripts -->
+    <script src="js/components/tree/Joint.js"></script>
+    <script src="js/components/tree/Branch.js"></script>
+    <script src="js/components/tree/TreeRender.js"></script>
+    <script src="js/components/tree/JointsSystem.js"></script>
+    <script src="js/components/tree/TreeBuilder.js"></script>
+    <script src="js/components/node.js"></script>
+    <script src="js/demos/helpers/Performance.js"></script>
+    <script src="js/components/complexes/ComplexesProcessor.js"></script>
+    <script src="js/components/complexes/ComplexesPlanarLayout.js"></script>
+    <script src="js/components/complexes/ComplexesHelpers.js"></script>
+    <script src="js/components/viewController/viewController.js"></script>
+    <script src="js/components/viewController/externalSvgViewController.js"></script>
+    <script src="js/components/viewController/view/UIBackgroundView.js"></script>
+    <script src="js/components/viewController/view/UIDivView.js"></script>
+    <script src="js/components/viewController/view/UIGView.js"></script>
+    <script src="js/components/viewController/view/UIImageView.js"></script>
+    <script src="js/components/viewController/view/UISvgView.js"></script>
+    <script src="js/components/viewController/view/UIView.js"></script>
+    <script src="js/components/complexes/view/ComplexView.js"></script>
+
+    <script src="js/demos/biopax/BiopaxParser.js"></script>
+    <script src="js/demos/lineset/PathwaysPath.js"></script>
+    <script src="js/demos/lineset/SideMenu.js"></script>
+    <script src="js/demos/lineset/Colors.js"></script>
+
+    <script src="js/demos/overlappingRects/RectLayout.js"></script>
+    <script src="js/demos/complex%20hierarchy/ComplexPack.js"></script>
+
+
+    <!-- Demos -->
+    <script src="js/demos/helpers/TreeHelpers.js"></script>
+    <script src="js/demos/DemosController.js"></script>
+    <script src="js/demos/DemoCircularTrees.js"></script>
+    <script src="js/demos/DemoPlainTree.js"></script>
+    <script src="js/demos/complex/DemoComplex.js"></script>
+    <script src="js/demos/lineset/DemoLineSet.js"></script>
+    <script src="js/demos/overlappingRects/DemoOverlappingRects.js"></script>
+    <script src="js/demos/complex%20hierarchy/DemoComplexHierarchy.js"></script>
+    <script src="js/demos/complex%20hierarchy/dummyComplex.js"></script>
+    <script src="js/demos/complex%20hierarchy/ComplexCircularLayout.js"></script>
+    <script src="js/demos/complex%20hierarchy/DemoCirclePacking.js"></script>
+    <script src="js/demos/lineset2/DemoLineSet2.js"></script>
+    <!-- <script src="js/demos/explorer/DemoExplorer.js"></script> -->
+    <script src="js/demos/explorer/Legenda.js"></script>
+    <script src="js/demos/explorer/Settings.js"></script>
+    <script src="js/demos/explorer/SearchArea.js"></script>
+    <!-- <script src="js/demos/explorer/PathwaysGraph.js"></script> -->
+    <script src="js/demos/explorer/ZoomControl.js"></script>
+    <script src="js/demos/explorer/Toolbar.js"></script>
+    <script src="js/demos/explorer/ContextArea.js"></script>
+    <script src="js/demos/explorer/PathwaysSearchUtils.js"></script>
+    <script src="js/demos/explorer/PathwaysGraphDrawingUtils.js"></script>
+    <script src="js/demos/complex%20hierarchy/SquaresPackLayout.js"></script>
+    <script src="js/demos/paxallax%20graph/DemoParallaxGraph.js"></script>
+
+    <script src="development/IndexCardExplorer.js"></script>
+    <script src="development/IndexCardPathwaysGraph.js"></script>
+
+    <!-- Starts application -->
+    <!-- <script src="js/main.js"></script> -->
+
+</head>
+<body>
+  <script>
+    d3.ns.prefix.rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+    // var svg = d3.select('body').append('svg');
+    var div = d3.select("body").append("div").classed("demo-explorer-area", true);
+    d3.select('body').style('background', '#fff');
+    var demo = new IndexCardExplorer(div);
+  </script>
+</body>
+</html>
