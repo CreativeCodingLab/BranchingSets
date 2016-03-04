@@ -2,19 +2,45 @@
 var container = d3.select('#app');
 
 var svg = container.append('svg')
+  .style("background", "#eee")
   .style('width', '80vw')
   .style('height', '80vh');
 
+var linksG = svg.append('g').classed('links', true);
+var nodesG = svg.append('g').classed('nodes', true);
+
 var force = d3.layout.force()
   .charge(-50)
+  .linkDistance(15)
+  .linkStrength(0.5)
+  .gravity(0.05)
   .size([500, 500]);
 
 var data = [];
 var nodes = [];
 var links = [];
 
+function createLinks(){
+
+  var circleGs = linksG
+    .selectAll('.link')
+    .data(links, function(d) { return d.source.identifier + "-" + d.target.identifier; });
+
+  var entering = circleGs.enter()
+    .append('g')
+    .classed('link', true);
+
+  entering.append('line')
+    .attr('stroke', '#777')
+    .attr('stroke-width', '2px');
+
+  // entering.append('text')
+  //   // .text(function(whateverIWannaCallIt) { return whateverIWannaCallIt.entity_text; });
+  //   .text(function(d) { return d.entity_text + " " + d.identifier; });
+}
+
 function createNodes(){
-  var circleGs = svg
+  var circleGs = nodesG
     .selectAll('.node')
     .data(nodes, function(d) { return d.identifier; });
 
@@ -22,13 +48,31 @@ function createNodes(){
     .append('g')
     .classed('node', true);
 
-  entering.append('circle')
-    .attr('r', 10)
-    .attr('fill', 'blue');
+  entering.append('rect')
+    .attr({
+                
+                width: 20,
+                height: 20,
+                rx : 3,
+                ry : 3,
+                fill: '#d28460'
+            })
+
+
+    // entering.forEach(function(d){
+
+    entering.on('mouseover', function(d) {
 
   entering.append('text')
     // .text(function(whateverIWannaCallIt) { return whateverIWannaCallIt.entity_text; });
     .text(function(d) { return d.entity_text + " " + d.identifier; });
+
+    entering.on('mouseout', function(d) {
+     createNodes();});
+  });
+
+
+  // });
 
   circleGs.on('click', function(d) {
     console.log(data);
@@ -59,12 +103,46 @@ function createNodes(){
 
     console.log(additional_nodes_we_want_to_add);
 
+    // [ 
+    //   {
+    //     source: d,
+    //     target: additional_nodes_we_want_to_add[0]
+    //   },
+    //   {
+    //     source: d,
+    //     target: additional_nodes_we_want_to_add[1]
+    //   }.
+    //   ...
+    // ]
+
+   var arrayLinks=[];
+   var arrayLinksObj;
+     for( var k=0; k < additional_nodes_we_want_to_add.length; k++){
+      arrayLinksObj = {source: d, target: additional_nodes_we_want_to_add[k]};
+      arrayLinks.push(arrayLinksObj);
+    }
+    console.log(arrayLinks);
+    // }
+
+    //     {
+    //       source: d,
+    //     target: additional_nodes_we_want_to_add[additional_nodes_we_want_to_add.length]
+    //   }
+     links = links.concat(arrayLinks);
+    links = _.uniq(links, false, function(d) { return d.source.identifier + "-" + d.target.identifier });
+
+    console.log(links)
+
+
     nodes = nodes.concat(additional_nodes_we_want_to_add);
     nodes = _.uniq(nodes, false, function(d) { return d.identifier });
 
     createNodes();
 
+    createLinks();
+
     force.nodes(nodes).start();
+    nodesG.selectAll('.node').call(force.drag);
   })
 
   // circleGs.exit().remove();
@@ -74,7 +152,7 @@ d3.json('./index-card-data/array_of_1000_cards.json', function(err, _data) {
   data = _data;
 
   // Get two to start
-  nodes = data.slice(0,50).map(function(node) {
+  nodes = data.slice(0,15).map(function(node) {
     return node.extracted_information.participant_a;
   });
 
@@ -152,7 +230,8 @@ function getParticipantArray(card, side) {
 // }
 
 force.on('tick', function(alpha, eventType) {
-  svg.selectAll('.link')
+  svg.selectAll('.link') // a bunch of g elements
+    .select('line')
     .attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
       .attr("x2", function(d) { return d.target.x; })
