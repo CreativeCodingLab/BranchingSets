@@ -27,8 +27,8 @@ var forceLabel = d3.layout.force()
 
 svg.call(tip);
 
-var viewNodes = [];
-var viewLinks = []; // Or maybe "selectedLinks"? Or somethign?
+// var viewNodes = [];
+// var viewLinks = []; // Or maybe "selectedLinks"? Or somethign?
 
 var nodes = [];
 var links = [];
@@ -99,7 +99,7 @@ var loadData = d3.select('body').append('button').text('load interpro:IPR002959'
 loadData.on('click', function() {
   var viewNodes = nodes
     .filter(function(d) { return d});
-    debugger
+    // debugger
 
   var viewLinks = [];
 
@@ -109,7 +109,7 @@ loadData.on('click', function() {
 
 function nodeClicked(d) {
   console.log(d);
-  debugger
+  // debugger
   // Find this node's links
   // Find all the nodes that are linked to
   // Remove duplicates
@@ -117,13 +117,18 @@ function nodeClicked(d) {
   // Call render(viewNodes, viewLinks)
 
   var viewLinks = [];
+  var viewNodes = [];
 
   links.forEach(function(link) {
     if(link.source.fields.entity_text === d.fields.entity_text) {
       viewLinks.push(link);
-      viewNodes.push(link.target);
-      viewNodes.push(link.source);
-      debugger
+      // Make sure that link.target is not already in viewNodes
+      var isInArray = viewNodes.some(function(_node) { return _node === link.target })
+      if (! isInArray) viewNodes.push(link.target);
+      // viewNodes.push(link.target);
+      isInArray = viewNodes.some(function(_node) { return _node === link.source })
+      if (! isInArray) viewNodes.push(link.source);
+      // debugger
     }
 
     else if(link.target.fields.entity_text === d.fields.entity_text) {
