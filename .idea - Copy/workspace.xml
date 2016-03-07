@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="318a2219-f8c1-411f-9548-a7a9896b4340" name="Default" comment="fix">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="pathways.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pathways" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="PathwaysGraph.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/explorer/PathwaysGraph.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="14908" max-vertical-offset="17415">
+              <caret line="1020" column="25" selection-start-line="1020" selection-start-column="25" selection-end-line="1020" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComplexPack.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/ComplexPack.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8060" max-vertical-offset="9510">
+              <caret line="559" column="28" selection-start-line="559" selection-start-column="28" selection-end-line="559" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContextArea.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/explorer/ContextArea.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="3855">
+              <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoExplorer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/explorer/DemoExplorer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="3180">
+              <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="750">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemosController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/DemosController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1725">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoComplex.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/complex/DemoComplex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1350">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BiopaxParser.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/demos/biopax/BiopaxParser.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2687" max-vertical-offset="6390">
+              <caret line="219" column="76" selection-start-line="219" selection-start-column="76" selection-end-line="219" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6050553" vertical-offset="427" max-vertical-offset="1455">
+              <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoExplorer.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/DemoExplorer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1924" max-vertical-offset="5820">
+              <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/components/complexes/ComplexesPlanarLayoutGenetic.js" />
+        <option value="$PROJECT_DIR$/js/components/complexes/view/ComplexView.js" />
+        <option value="$PROJECT_DIR$/js/demos/complex/DemoComplex.js" />
+        <option value="$PROJECT_DIR$/js/components/complexes/ComplexesPlanarLayout.js" />
+        <option value="$PROJECT_DIR$/js/components/complexes/ComplexesProcessor.js" />
+        <option value="$PROJECT_DIR$/js/demos/lineset/sideMenu.js" />
+        <option value="$PROJECT_DIR$/js/demos/lineset/PathwaysPath.js" />
+        <option value="$PROJECT_DIR$/js/components/node.js" />
+        <option value="$PROJECT_DIR$/js/components/viewController/view/UIView.js" />
+        <option value="$PROJECT_DIR$/js/components/viewController/view/UISvgView.js" />
+        <option value="$PROJECT_DIR$/js/libs/rect2d.js" />
+        <option value="$PROJECT_DIR$/js/libs/color-1.0.1.js" />
+        <option value="$PROJECT_DIR$/js/demos/helpers/TreeHelpers.js" />
+        <option value="$PROJECT_DIR$/js/demos/DemoPlainTree.js" />
+        <option value="$PROJECT_DIR$/js/libs/vec2d.js" />
+        <option value="$PROJECT_DIR$/js/components/tree/TreeRender.js" />
+        <option value="$PROJECT_DIR$/js/demos/complex hierarchy/ComplexCircularLayout.js" />
+        <option value="$PROJECT_DIR$/js/demos/complex hierarchy/DemoComplexHierarchy.js" />
+        <option value="$PROJECT_DIR$/js/demos/complex hierarchy/dummyComplex.js" />
+        <option value="$PROJECT_DIR$/js/demos/lineset/DemoLineSet.js" />
+        <option value="$PROJECT_DIR$/js/demos/lineset/SideMenu.js" />
+        <option value="$PROJECT_DIR$/js/demos/lineset/Colors.js" />
+        <option value="$PROJECT_DIR$/js/demos/complex hierarchy/DemoCirclePacking.js" />
+        <option value="$PROJECT_DIR$/js/demos/DemosController.js" />
+        <option value="$PROJECT_DIR$/styles/DemosController.css" />
+        <option value="$PROJECT_DIR$/styles/theme.css" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/SearchArea.js" />
+        <option value="$PROJECT_DIR$/js/demos/complex hierarchy/SquaresPackLayout.js" />
+        <option value="$PROJECT_DIR$/js/demos/overlappingRects/DemoOverlappingRects.js" />
+        <option value="$PROJECT_DIR$/js/demos/paxallax graph/ParallaxGraph.js" />
+        <option value="$PROJECT_DIR$/styles/DemoParallax.css" />
+        <option value="$PROJECT_DIR$/resources/demos/graph/graph.json" />
+        <option value="$PROJECT_DIR$/js/demos/lineset2/DemoLineSet2.js" />
+        <option value="$PROJECT_DIR$/js/demos/paxallax graph/DemoParallaxGraph.js" />
+        <option value="$PROJECT_DIR$/stocks" />
+        <option value="$PROJECT_DIR$/deleteme" />
+        <option value="$PROJECT_DIR$/js/demos/overlappingRects/RectLayout.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/ContextArea.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/Legenda.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/PathwaysSearchUtils.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/Toolbar.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/ZoomControl.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/Settings.js" />
+        <option value="$PROJECT_DIR$/styles/DemoExplorer.css" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/PathwaysGraphDrawingUtils.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/demos/complex hierarchy/ComplexPack.js" />
+        <option value="$PROJECT_DIR$/js/demos/biopax/BiopaxParser.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/DemoExplorer.js" />
+        <option value="$PROJECT_DIR$/js/demos/explorer/PathwaysGraph.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="owl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="owl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="owl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crosstalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pathways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/index.html&#10;biopa&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/biopax/BiopaxParser.js&#10;pack&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/complex hierarchy/ComplexPack.js&#10;democont&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/DemosController.js&#10;demoCo&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/complex/DemoComplex.js&#10;main&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/main.js&#10;conte&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/ContextArea.js&#10;vec2&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/libs/vec2d.js&#10;index&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/index.html&#10;css&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/styles/DemoExplorer.css&#10;demo&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/DemoExplorer.js&#10;setting&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/Settings.js&#10;draw&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/PathwaysGraphDrawingUtils.js&#10;graph&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/PathwaysGraph.js&#10;pac&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/complex hierarchy/SquaresPackLayout.js&#10;pa&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/PathwaysGraph.js&#10;cs&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/styles/DemoExplorer.css&#10;zoom&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/ZoomControl.js&#10;legenda&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/Legenda.js&#10;context&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/ContextArea.js&#10;LEGE&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/Legenda.js&#10;settings&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/Settings.js&#10;lege&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/Legenda.js&#10;pathwa&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/PathwaysGraph.js&#10;contex&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/ContextArea.js&#10;demoE&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/styles/DemoExplorer.css&#10;idnex&#9;null&#9;null&#10;in&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/index.html&#10;p&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/biopax/BiopaxParser.js&#10;DemoE&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/styles/DemoExplorer.css&#10;rect&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/overlappingRects/RectLayout.js&#10;biopax&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/biopax/BiopaxParser.js&#10;INDEX&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/index.html&#10;paralla&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/paxallax graph/DemoParallaxGraph.js&#10;bringT&#9;null&#9;null&#10;lines&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/lineset2/DemoLineSet2.js&#10;rectL&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/overlappingRects/RectLayout.js&#10;overlapp&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/overlappingRects/DemoOverlappingRects.js&#10;explore&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/DemoExplorer.js&#10;parallax&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/paxallax graph/DemoParallaxGraph.js&#10;par&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/styles/DemoParallax.css&#10;Explorer&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/DemoExplorer.js&#10;infrc&#9;null&#9;null&#10;line&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/lineset2/DemoLineSet2.js&#10;demoR&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/overlappingRects/DemoOverlappingRects.js&#10;parser&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/biopax/BiopaxParser.js&#10;DEMOE&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/explorer/DemoExplorer.js&#10;MAIN&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/main.js&#10;complexP&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/complex hierarchy/ComplexPack.js&#10;packL&#9;FILE&#9;file:///Users/fra/WebstormProjects/pathways/js/demos/complex hierarchy/SquaresPackLayout.js" />
+    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bicyclerace.github.io" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles" />
+      <recent name="$PROJECT_DIR$/js/demos/explorer" />
+      <recent name="$PROJECT_DIR$/js/demos/lineset2" />
+      <recent name="$PROJECT_DIR$/js/demos/complex hierarchy" />
+      <recent name="$PROJECT_DIR$/js/libs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/demos/owl/yao" />
+      <recent name="$PROJECT_DIR$/js/components/complexes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="318a2219-f8c1-411f-9548-a7a9896b4340" name="Default" comment="" />
+      <created>1415487010978</created>
+      <option name="number" value="Default" />
+      <updated>1415487010978</updated>
+    </task>
+    <task id="LOCAL-00001" summary="int demo complexes">
+      <created>1415504597663</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1415504597663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="int demo complexes">
+      <created>1422213105115</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1422213105115</updated>
+    </task>
+    <task id="LOCAL-00003" summary="int demo complexes">
+      <created>1422213424188</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1422213424188</updated>
+    </task>
+    <task id="LOCAL-00004" summary="int demo complexes">
+      <created>1422213919370</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1422213919370</updated>
+    </task>
+    <task id="LOCAL-00005" summary="contour&#10;">
+      <created>1422223215448</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1422223215448</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix">
+      <created>1422223484034</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1422223484034</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rect layout">
+      <created>1422259242378</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1422259242378</updated>
+    </task>
+    <task id="LOCAL-00008" summary="rect layout">
+      <created>1422260748237</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1422260748237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="rect layout">
+      <created>1422261193776</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1422261193776</updated>
+    </task>
+    <task id="LOCAL-00010" summary="rect layout">
+      <created>1422261261460</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1422261261460</updated>
+    </task>
+    <task id="LOCAL-00011" summary="rect layout">
+      <created>1422309714610</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1422309714610</updated>
+    </task>
+    <task id="LOCAL-00012" summary="before complex hierarchy&#10;">
+      <created>1422393679300</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1422393679300</updated>
+    </task>
+    <task id="LOCAL-00013" summary="circles packing">
+      <created>1422747056501</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1422747056501</updated>
+    </task>
+    <task id="LOCAL-00014" summary="circles packing colors">
+      <created>1422811821880</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1422811821880</updated>
+    </task>
+    <task id="LOCAL-00015" summary="explorer1">
+      <created>1423122180289</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1423122180289</updated>
+    </task>
+    <task id="LOCAL-00016" summary="explorer2">
+      <created>1423128586813</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1423128586813</updated>
+    </task>
+    <task id="LOCAL-00017" summary="explorer3">
+      <created>1424929084245</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1424929084245</updated>
+    </task>
+    <task id="LOCAL-00018" summary="explorer3">
+      <created>1425430462753</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1425430462753</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1428159589048</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1428159589048</updated>
+    </task>
+    <task id="LOCAL-00020" summary="multi pw">
+      <created>1428344213389</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1428344213389</updated>
+    </task>
+    <task id="LOCAL-00021" summary="force layout">
+      <created>1428467195797</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1428467195797</updated>
+    </task>
+    <task id="LOCAL-00022" summary="6 pws">
+      <created>1428516099741</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1428516099741</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fixies">
+      <created>1428549217852</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1428549217852</updated>
+    </task>
+    <task id="LOCAL-00024" summary="color palette">
+      <created>1428557022635</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1428557022635</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix colors">
+      <created>1428557765388</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1428557765388</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix visible">
+      <created>1428645436914</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1428645436914</updated>
+    </task>
+    <task id="LOCAL-00027" summary="zoom&#10;">
+      <created>1428691332498</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1428691332498</updated>
+    </task>
+    <task id="LOCAL-00028" summary="zoom&#10;">
+      <created>1428691336516</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1428691336516</updated>
+    </task>
+    <task id="LOCAL-00029" summary="curved links">
+      <created>1428785690902</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1428785690902</updated>
+    </task>
+    <task id="LOCAL-00030" summary="curved links 2">
+      <created>1428824863491</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1428824863491</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fix">
+      <created>1429155798516</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1429155798516</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15700483" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21987315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32902467" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1574904" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15362932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="int demo complexes" />
+    <MESSAGE value="contour&#10;" />
+    <MESSAGE value="rect layout" />
+    <MESSAGE value="before complex hierarchy&#10;" />
+    <MESSAGE value="circles packing" />
+    <MESSAGE value="circles packing colors" />
+    <MESSAGE value="explorer1" />
+    <MESSAGE value="explorer2" />
+    <MESSAGE value="explorer3" />
+    <MESSAGE value="update" />
+    <MESSAGE value="multi pw" />
+    <MESSAGE value="force layout" />
+    <MESSAGE value="6 pws" />
+    <MESSAGE value="fixies" />
+    <MESSAGE value="color palette" />
+    <MESSAGE value="fix colors" />
+    <MESSAGE value="fix visible" />
+    <MESSAGE value="zoom&#10;" />
+    <MESSAGE value="curved links" />
+    <MESSAGE value="curved links 2" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/components/tree/JointsSystem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2340">
+          <caret line="123" column="51" selection-start-line="107" selection-start-column="7" selection-end-line="123" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/DemoPlainTree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5960265" vertical-offset="135" max-vertical-offset="1200">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/helpers/TreeHelpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/tree/TreeRender.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7830">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/ComplexCircularLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3480">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/DemoCircularTrees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27888447" vertical-offset="0" max-vertical-offset="1755">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/dummyComplex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1035">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/lineset/DemoLineSet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3625498" vertical-offset="6792" max-vertical-offset="7560">
+          <caret line="479" column="31" selection-start-line="479" selection-start-column="31" selection-end-line="479" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/lineset/Colors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="4" column="145" selection-start-line="4" selection-start-column="145" selection-end-line="4" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/DemoComplexHierarchy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17662683" vertical-offset="3137" max-vertical-offset="5430">
+          <caret line="218" column="6" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/lineset/SideMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08366534" vertical-offset="177" max-vertical-offset="930">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/img/search-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/DemosController.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21912351" vertical-offset="225" max-vertical-offset="1125">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/color-1.0.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="4039" max-vertical-offset="12360">
+          <caret line="310" column="8" selection-start-line="310" selection-start-column="8" selection-end-line="310" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/SearchArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1185">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/demos/owl/Rb-E2F1.owl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.061898213" vertical-offset="0" max-vertical-offset="727">
+          <caret line="3" column="133" selection-start-line="3" selection-start-column="131" selection-end-line="3" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/demos/graph/graph.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.115226336" vertical-offset="4416" max-vertical-offset="5145">
+          <caret line="300" column="40" selection-start-line="300" selection-start-column="40" selection-end-line="300" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/overlappingRects/DemoOverlappingRects.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32270917" vertical-offset="822" max-vertical-offset="2025">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/components/viewController/view/UISvgView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3930943" vertical-offset="2284" max-vertical-offset="3675">
+          <caret line="172" column="11" selection-start-line="170" selection-start-column="8" selection-end-line="172" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/lineset2/DemoLineSet2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42231077" vertical-offset="8022" max-vertical-offset="8775">
+          <caret line="556" column="0" selection-start-line="556" selection-start-column="0" selection-end-line="556" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/DemoParallax.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.336" vertical-offset="0" max-vertical-offset="625">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/paxallax graph/DemoParallaxGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28286853" vertical-offset="1872" max-vertical-offset="3765">
+          <caret line="139" column="19" selection-start-line="139" selection-start-column="19" selection-end-line="139" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/node.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01986755" vertical-offset="0" max-vertical-offset="755">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046357617" vertical-offset="940" max-vertical-offset="1695">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/lineset/PathwaysPath.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1080">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/d3-3.4.11.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73719674" vertical-offset="28193" max-vertical-offset="138570">
+          <caret line="1916" column="7" selection-start-line="1916" selection-start-column="7" selection-end-line="1916" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/demos/owl/EGFR.owl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018518519" vertical-offset="0" max-vertical-offset="810">
+          <caret line="1" column="89" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/overlappingRects/RectLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45565006" vertical-offset="0" max-vertical-offset="2220">
+          <caret line="25" column="73" selection-start-line="25" selection-start-column="73" selection-end-line="25" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/DemoCirclePacking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58563536" vertical-offset="1287" max-vertical-offset="1830">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/img/legenda.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/Legenda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/Toolbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.054678008" vertical-offset="0" max-vertical-offset="823">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/PathwaysSearchUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/ZoomControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/SquaresPackLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="2010">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/Settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="2220">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/DemoExplorer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1924" max-vertical-offset="5820">
+          <caret line="151" column="12" selection-start-line="151" selection-start-column="12" selection-end-line="151" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/libs/vec2d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2948557" vertical-offset="875" max-vertical-offset="2010">
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/PathwaysGraphDrawingUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07290401" vertical-offset="0" max-vertical-offset="4275">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/ContextArea.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11" max-vertical-offset="3855">
+          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex/DemoComplex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="807" max-vertical-offset="1350">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="750">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/complex hierarchy/ComplexPack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8060" max-vertical-offset="9510">
+          <caret line="559" column="28" selection-start-line="559" selection-start-column="28" selection-end-line="559" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/DemosController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/biopax/BiopaxParser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2687" max-vertical-offset="6390">
+          <caret line="219" column="76" selection-start-line="219" selection-start-column="76" selection-end-line="219" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/DemoExplorer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1620" max-vertical-offset="3180">
+          <caret line="133" column="16" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/demos/explorer/PathwaysGraph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14908" max-vertical-offset="17415">
+          <caret line="1020" column="25" selection-start-line="1020" selection-start-column="25" selection-end-line="1020" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6050553" vertical-offset="427" max-vertical-offset="1455">
+          <caret line="54" column="67" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -6,6 +6,12 @@ var svg = container.append('svg')
   .style('width', '80vw')
   .style('height', '80vh');
 
+ var zoomControl = ZoomControl(svg);
+  var _IndexCardGraph=createLinks;
+
+
+
+
 var linksG = svg.append('g').classed('links', true);
 var nodesG = svg.append('g').classed('nodes', true);
 
@@ -70,6 +76,7 @@ function createNodes(){
     entering.on('mouseout', function(d) {
      createNodes();});
   });
+
 
 
   // });
@@ -241,6 +248,8 @@ force.on('tick', function(alpha, eventType) {
     .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
 });
 
+  zoomControl.onZoomIn = _IndexCardGraph.zoomIn;
+        zoomControl.onZoomOut = _IndexCardGraph.zoomOut;
 
 function getAllWithId(id, data) {
   //console.log(id, data);

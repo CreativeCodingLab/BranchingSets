@@ -1,0 +1,257 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cir",
+				"circleGs"
+			],
+			[
+				"enter",
+				"entering"
+			],
+			[
+				"link",
+				"link"
+			],
+			[
+				"lin",
+				"links"
+			],
+			[
+				"a",
+				"arrayLinks"
+			],
+			[
+				"arra",
+				"arrayLinks"
+			],
+			[
+				"arr",
+				"arrayLinksObj"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"par",
+				"participant_bs"
+			],
+			[
+				"particip",
+				"participantA_array"
+			],
+			[
+				"i",
+				"identifier"
+			],
+			[
+				"pa",
+				"partA"
+			],
+			[
+				"e",
+				"extracted_information"
+			],
+			[
+				"get",
+				"getAllWithId"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Tuan_BioLinker/BioLinker/data/cardsWithContextData.json",
+		"/C/Tuan_BioLinker/BioLinker/data/cards-for-time-arcs.json",
+		"/C/Branching Sets/BranchingSets/development/IndexCardExplorer.js",
+		"/C/Branching Sets/BranchingSets/development/index-card-explorer/index.html",
+		"/C/Branching Sets/BranchingSets/js/demos/explorer/ZoomControl.js",
+		"/C/Tuan_BioLinker/BioLinker/data/Cell_Type.tsv",
+		"/C/Tuan_BioLinker/BioLinker/index.html",
+		"/C/Tuan_BioLinker/BioLinker/index2.html",
+		"/C/Branching Sets/BranchingSets/js/main.js",
+		"/C/Branching Sets/BranchingSets/js/demos/biopax/BiopaxParser.js",
+		"/C/Branching Sets/BranchingSets/js/demos/explorer/PathwaysGraphDrawingUtils.js",
+		"/C/Tuan_BioLinker/BioLinker/myscripts/util.js",
+		"/C/BranchingSets/index-card-data/array_of_100_cards.json",
+		"/C/BranchingSets/main.js",
+		"/C/BranchingSets/index.html",
+		"/C/Branching Sets/BranchingSets/development/index-card-explorer/main.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"data_",
+			"map",
+			"zoomOut",
+			"ZoomControl",
+			"biopaxParser",
+			"IndexCardPathwaysGraph",
+			"_pathwayGraph",
+			"ZoomControl",
+			"mouse",
+			"arrowTip",
+			"PathwaysGraphDrawingUtils",
+			"lable",
+			"demo-explorer-visualization-area",
+			"legenda",
+			"drawColorLegend",
+			"updateForceLayoutNodesAndLinks",
+			"_componentsForceLayout",
+			"force",
+			"});"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"IndexCardDrawingUtils"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 490.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

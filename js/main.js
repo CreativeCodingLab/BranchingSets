@@ -4,9 +4,15 @@ var demosController;
 $(document).ready(function() {
 
     checkBrowser();
+d3.json("./index-card-data/array_of_1000_cards.json");
+  //  d3.json('./index-card-data/array_of_1000_cards.json', function(err, _data) {
+  // data = _data;
 
-    d3.ns.prefix.rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
-    //DEMOS CONTROLLER
+  // // Get two to start
+  // nodes = data.slice(0,15).map(function(node) {
+  //   return node.extracted_information.participant_a;
+  // });
+  //   //DEMOS CONTROLLER
     demosController = new DemosController([
         DemoPlainTree,
         DemoCircularTrees,
