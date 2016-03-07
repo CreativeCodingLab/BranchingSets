@@ -28,7 +28,7 @@ var forceLabel = d3.layout.force()
 
 
 
-//svg2.call(tip);  
+svg.call(tip);  
 
 var nodes = [];
 var links = [];
@@ -48,11 +48,11 @@ drawColorLegend();
 
 
 
-d3.json("data/cards-for-time-arcs.json", function(error, data_) {
+// d3.json("data/cards-for-time-arcs.json", function(error, data_) {
 d3.json("data/cardsWithContextData.json", function(error, data_) {
     data3 = data_;
     data3.forEach(function(d, index){ 
-      if (index<15) {  
+      if (index<30) {  
         var a = d.extracted_information.participant_a;
         var b = d.extracted_information.participant_b;
         var e = "";
@@ -91,6 +91,7 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
     console.log("Number of nodes: "+nodes.length);
     console.log("Number of links: "+links.length);
 
+var ready = function(d){
   force
       .nodes(nodes)
       .links(links)
@@ -124,7 +125,7 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
       .call(force.drag)
       svg.selectAll('.node')
     
-      // .on("click", click1)
+       // .on("click", click1)
       .on('mouseover', function(d) {
         svg.selectAll(".node")
           .style("stroke" , function(d2){
@@ -151,6 +152,10 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
   node.append("title")
       .text(function(d) { return d.fields.entity_text; });
 
+
+
+
+
   force.on("tick", function() {
     link.attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
@@ -162,7 +167,8 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
 
     });
 
-
+};
+ready();
 });
-});
+// });
 
