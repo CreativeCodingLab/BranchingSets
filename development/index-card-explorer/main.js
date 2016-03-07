@@ -74,9 +74,11 @@ d3.json('./index-card-data/array_of_1000_cards.json', function(err, _data) {
   data = _data;
 
   // Get two to start
-  nodes = data.slice(0,50).map(function(node) {
+  nodes = data.slice(0,100).map(function(node) {
     return node.extracted_information.participant_a;
   });
+
+  console.log(nodes);
 
   createNodes();
 
