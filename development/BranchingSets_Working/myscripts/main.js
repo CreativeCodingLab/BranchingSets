@@ -25,7 +25,7 @@ var forceLabel = d3.layout.force()
   .linkStrength(20).charge(-80)
   .size([width, height]);
 
-svg.call(tip);
+// svg.call(tip);
 
 // var viewNodes = [];
 // var viewLinks = []; // Or maybe "selectedLinks"? Or somethign?
@@ -52,7 +52,7 @@ drawColorLegend();
 d3.json("data/cardsWithContextData.json", function(error, data_) {
     data3 = data_;
     data3.forEach(function(d, index){
-      if (index<30) {
+      if (index<1000) {
         var a = d.extracted_information.participant_a;
         var b = d.extracted_information.participant_b;
         var e = "";
@@ -94,7 +94,7 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
 // ready();
 });
 
-var loadData = d3.select('body').append('button').text('load interpro:IPR002959');
+var loadData = d3.select('body').append('button').text('load Initial Nodes');
 
 loadData.on('click', function() {
   var viewNodes = nodes
@@ -122,33 +122,30 @@ function nodeClicked(d) {
   links.forEach(function(link) {
     if(link.source.fields.entity_text === d.fields.entity_text) {
       viewLinks.push(link);
+      
       // Make sure that link.target is not already in viewNodes
-      var isInArray = viewNodes.some(function(_node) { return _node === link.target })
-      if (! isInArray) viewNodes.push(link.target);
-      // viewNodes.push(link.target);
-      isInArray = viewNodes.some(function(_node) { return _node === link.source })
-      if (! isInArray) viewNodes.push(link.source);
+      // var isInArray = viewNodes.some(function(_node) { return _node === link.target })
+      //if (! isInArray) 
+        viewNodes.push(link.target);
+      // isInArray = viewNodes.some(function(_node) { return _node === link.source })
+     // if (! isInArray) 
+        viewNodes.push(link.source);
       // debugger
     }
 
     else if(link.target.fields.entity_text === d.fields.entity_text) {
       viewLinks.push(link);
-      viewNodes.push(link.source);
-      viewNodes.push(link.target);
+      // Make sure that link.target is not already in viewNodes
+      // var isInArray = viewNodes.some(function(_node) { return _node === link.target })
+      // if (! isInArray) 
+        viewNodes.push(link.source);
+      //isInArray = viewNodes.some(function(_node) { return _node === link.source })
+     // if (! isInArray) 
+        viewNodes.push(link.target);
     }
   })
 
-  // var fakeLinks = links.slice(6,13); // Don't do this – instead find the links that are connected to this node
-
-  // var fakeNodes = [];
-
-  // fakeLinks.forEach(function(link) {
-  //   if(link.source.fields.entity_text === d.fields.entity_text)
-  //   // TODO: Only push if this source or target node is not in the fakeNodes array already
-  //   fakeNodes.push(link.source);
-  //   fakeNodes.push(link.target);
-  // });
-
+ 
   // TODO: Remove duplicates!
   // debugger
 
@@ -185,7 +182,10 @@ function render(viewNodes, viewLinks) {
     .call(force.drag)
     .on('click', nodeClicked)
 
-  entered_node.append("rect") // "Enter"
+    entered_node.append("rect") // "Enter"
+
+    // .attr("class", "node")
+    // .call(force.drag)
     .attr({
               width: 20,
               height: 20,
@@ -197,24 +197,29 @@ function render(viewNodes, viewLinks) {
     .style("stroke", "#eee")
     .style("stroke-opacity", 0.5)
     .style("stroke-width", 0.3)
+    // .on('click', nodeClicked)
 
-  entered_node.append('text')
-    .style('stroke-width', 0)
-    .text('')
+  entered_node.append('title')
+    .attr("font-family", "sans-serif")
+    .attr("font-size", "100px")
+    .attr("fill", "red")
+    .text(' ');
+   
 
   node.exit().remove();
 
   svg.selectAll('.node')
       .on('mouseover', function(d) {
-        d3.select(this).select('text')
-          .text(d.fields.entity_text);
+        d3.select(this).select('title')
+          .text(function(d) { return d.fields.entity_text; });
 
         d3.select(this)
           .select('rect')
           .style({
             "stroke": "#000",
             "stroke-width": 5
-          });
+          })
+          .call(force.drag);
 
 
 
@@ -224,14 +229,14 @@ function render(viewNodes, viewLinks) {
         //     if (d.id==d2.id){
         //       return "#000";
         //     }
-        //
+        
         //   })
         //   .style("stroke-width" , function(d2){
         //     if (d.id==d2.id){
         //       return 5;
         //     }
         //   })
-        //   .call(force.drag);
+          
       })
       .on('mouseout', function(){
         //  svg.selectAll(".node")
