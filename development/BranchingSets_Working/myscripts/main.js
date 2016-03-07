@@ -175,31 +175,52 @@ function render(viewNodes, viewLinks) {
     .style("stroke-opacity", 0.5)
     .style("stroke-width", 0.3)
 
-  entered_node.append('text').text('hello')
+  entered_node.append('text')
+    .style('stroke-width', 0)
+    .text('')
 
   node.exit().remove();
 
-  // svg.selectAll('.node')
-  //     .on('mouseover', function(d) {
-  //       svg.selectAll(".node")
-  //         .style("stroke" , function(d2){
-  //           if (d.id==d2.id){
-  //             return "#000";
-  //           }
-  //
-  //         })
-  //         .style("stroke-width" , function(d2){
-  //           if (d.id==d2.id){
-  //             return 5;
-  //           }
-  //         })
-  //         .call(force.drag);
-  //     })
-  //     .on('mouseout', function(){
-  //        svg.selectAll(".node")
-  //         .style("stroke-width" ,0);
-  //
-  //     });
+  svg.selectAll('.node')
+      .on('mouseover', function(d) {
+        d3.select(this).select('text')
+          .text(d.fields.entity_text);
+
+        d3.select(this)
+          .select('rect')
+          .style({
+            "stroke": "#000",
+            "stroke-width": 5
+          });
+
+
+
+        // svg.selectAll(".node")
+        //   .select('rect')
+        //   .style("stroke" , function(d2){
+        //     if (d.id==d2.id){
+        //       return "#000";
+        //     }
+        //
+        //   })
+        //   .style("stroke-width" , function(d2){
+        //     if (d.id==d2.id){
+        //       return 5;
+        //     }
+        //   })
+        //   .call(force.drag);
+      })
+      .on('mouseout', function(){
+        //  svg.selectAll(".node")
+        d3.select(this)
+          .select('rect')
+          .style("stroke-width" ,0);
+
+        d3.select(this)
+          .select('text')
+          .text('')
+
+      });
 
   // node.append("title")
   //     .text(function(d) { return d.fields.entity_text; });
