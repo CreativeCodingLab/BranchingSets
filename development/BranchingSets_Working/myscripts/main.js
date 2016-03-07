@@ -98,39 +98,56 @@ var loadData = d3.select('body').append('button').text('load interpro:IPR002959'
 
 loadData.on('click', function() {
   var viewNodes = nodes
-    .filter(function(d) { return d.fields.identifier === "interpro:IPR002959" });
+    .filter(function(d) { return d});
+    debugger
 
   var viewLinks = [];
 
   render(viewNodes, viewLinks)
-  render(viewNodes, viewLinks)
-  render(viewNodes, viewLinks)
-  render(viewNodes, viewLinks)
-  render(viewNodes, viewLinks)
+
 });
 
 function nodeClicked(d) {
   console.log(d);
+  debugger
   // Find this node's links
   // Find all the nodes that are linked to
   // Remove duplicates
   // Assign this new array of nodes and links to viewNodes and viewLinks
   // Call render(viewNodes, viewLinks)
 
-  var fakeLinks = links.slice(6,13); // Don't do this – instead find the links that are connected to this node
+  var viewLinks = [];
 
-  var fakeNodes = [];
+  links.forEach(function(link) {
+    if(link.source.fields.entity_text === d.fields.entity_text) {
+      viewLinks.push(link);
+      viewNodes.push(link.target);
+      viewNodes.push(link.source);
+      debugger
+    }
 
-  fakeLinks.forEach(function(link) {
-    // TODO: Only push if this source or target node is not in the fakeNodes array already
-    fakeNodes.push(link.source);
-    fakeNodes.push(link.target);
-  });
+    else if(link.target.fields.entity_text === d.fields.entity_text) {
+      viewLinks.push(link);
+      viewNodes.push(link.source);
+      viewNodes.push(link.target);
+    }
+  })
+
+  // var fakeLinks = links.slice(6,13); // Don't do this – instead find the links that are connected to this node
+
+  // var fakeNodes = [];
+
+  // fakeLinks.forEach(function(link) {
+  //   if(link.source.fields.entity_text === d.fields.entity_text)
+  //   // TODO: Only push if this source or target node is not in the fakeNodes array already
+  //   fakeNodes.push(link.source);
+  //   fakeNodes.push(link.target);
+  // });
 
   // TODO: Remove duplicates!
   // debugger
 
-  render(fakeNodes, fakeLinks);
+  render(viewNodes, viewLinks);
 }
 
 function render(viewNodes, viewLinks) {
@@ -146,6 +163,7 @@ function render(viewNodes, viewLinks) {
 
   link.enter().append("line")
     .attr("class", "link")
+
     .style("stroke", function(l){
        return getColor(l.type);
     })
