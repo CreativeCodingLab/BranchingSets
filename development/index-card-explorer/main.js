@@ -9,9 +9,6 @@ var svg = container.append('svg')
  var zoomControl = ZoomControl(svg);
   var _IndexCardGraph=createLinks;
 
-
-
-
 var linksG = svg.append('g').classed('links', true);
 var nodesG = svg.append('g').classed('nodes', true);
 
