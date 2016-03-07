@@ -1,0 +1,337 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"link",
+				"link"
+			],
+			[
+				"lin",
+				"links"
+			],
+			[
+				"a",
+				"arrayLinks"
+			],
+			[
+				"arra",
+				"arrayLinks"
+			],
+			[
+				"arr",
+				"arrayLinksObj"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"par",
+				"participant_bs"
+			],
+			[
+				"particip",
+				"participantA_array"
+			],
+			[
+				"i",
+				"identifier"
+			],
+			[
+				"pa",
+				"partA"
+			],
+			[
+				"e",
+				"extracted_information"
+			],
+			[
+				"get",
+				"getAllWithId"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index-card-explorer/main.js",
+			"settings":
+			{
+				"buffer_size": 6486,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Searching 110 files for \"demo-explorer-visualization-area\"\n\nC:\\Branching Sets\\BranchingSets\\development\\IndexCardExplorer.js:\n   45  \n   46          var visualizationArea = divContainer.append(\"div\")\n   47:             .classed(\"demo-explorer-visualization-area\",true);\n   48          var svg = visualizationArea.append(\"svg\");\n   49          svg.attr(\"viewBox\",\"0 0 800 600\");\n\nC:\\Branching Sets\\BranchingSets\\js\\demos\\explorer\\DemoExplorer.js:\n   44  \n   45          var visualizationArea = divContainer.append(\"div\")\n   46:             .classed(\"demo-explorer-visualization-area\",true);\n   47          var svg = visualizationArea.append(\"svg\");\n   48          svg.attr(\"viewBox\",\"0 0 800 600\");\n\nC:\\Branching Sets\\BranchingSets\\styles\\DemoExplorer.css:\n   17  \n   18  \n   19: .demo-explorer-visualization-area {\n   20      width: 100%;\n   21      height: 100%;\n\n3 matches across 3 files\n",
+			"settings":
+			{
+				"buffer_size": 890,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Branching Sets/BranchingSets",
+		"/C/Branching Sets/BranchingSets/development",
+		"/C/Branching Sets/BranchingSets/development/index-card-explorer"
+	],
+	"file_history":
+	[
+		"/C/BranchingSets/index-card-data/array_of_100_cards.json",
+		"/C/BranchingSets/main.js",
+		"/C/BranchingSets/index.html",
+		"/C/Branching Sets/BranchingSets/development/index-card-explorer/main.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"demo-explorer-visualization-area",
+			"legenda",
+			"drawColorLegend",
+			"updateForceLayoutNodesAndLinks",
+			"_componentsForceLayout",
+			"force",
+			"});"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index-card-explorer/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6486,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 119.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 890,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										229,
+										261
+									],
+									[
+										549,
+										581
+									],
+									[
+										780,
+										812
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								520,
+								520
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ 	].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": ".gitignore.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 157.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"createNodes"
+			]
+		],
+		"width": 339.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 363.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

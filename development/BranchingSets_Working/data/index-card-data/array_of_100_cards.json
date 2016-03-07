@@ -1,0 +1,3451 @@
+[
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232460"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": true,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1327",
+        "entity_text": "cGMP",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "TEA does not inhibit the cGMP"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232461"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibition",
+    "evidence": [
+      "TEA inhibition of water flux in AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232462"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "Organ": [
+          "uazid:UA-ORG-126"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "block",
+    "evidence": [
+      "block of AQP1-mediated water permeability by TEA"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232463"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "Organ": [
+          "uazid:UA-ORG-126"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "block",
+    "evidence": [
+      "block of AQP1-mediated water permeability by TEA"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232464"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "Organ": [
+          "uazid:UA-ORG-126"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "block",
+    "evidence": [
+      "TEA block of AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232465"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "Organ": [
+          "uazid:UA-ORG-126"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "block",
+    "evidence": [
+      "TEA block of AQP1-mediated water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232466"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "Organ": [
+          "uazid:UA-ORG-126"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibited",
+    "evidence": [
+      "TEA inhibited significantly the osmotically-driven net movement of water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232467"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:10535"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "Block",
+    "evidence": [
+      "Block by TEA of AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232468"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:10535"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "Block",
+    "evidence": [
+      "Block by TEA of AQP1-mediated water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232469"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibition",
+    "evidence": [
+      "TEA inhibition of water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323246a"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "blocks",
+    "evidence": [
+      "TEA blocks water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323246b"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": true,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "TEA does not inhibit the cGMP-dependent ionic conductance of AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323246c"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1327",
+        "entity_text": "cGMP",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:26708",
+        "entity_text": "sodium",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "CellType": [
+          "uazid:UA-CT-100007"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "elevates",
+    "evidence": [
+      "sodium nitroprusside (SNP), which elevates endogenous cGMP"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323246d"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1327",
+        "entity_text": "cGMP",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:7596",
+        "entity_text": "nitroprusside",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "CellType": [
+          "uazid:UA-CT-100007"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "elevates",
+    "evidence": [
+      "nitroprusside (SNP), which elevates endogenous cGMP"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323246e"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": true,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "CellType": [
+          "uazid:UA-CT-100007"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "block",
+    "evidence": [
+      "TEA(10 mM) failed to block the cGMP-dependent ionic current in AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323246f"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "uniprot:Q2G0B1"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "produces",
+    "evidence": [
+      "TEA produces a 34% block of osmotic water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232470"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "blocks",
+    "evidence": [
+      "TEA blocks osmotic water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232471"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "blocks",
+    "evidence": [
+      "TEA blocks osmotic water flux of native AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232472"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Organ": [
+          "uazid:UA-ORG-461"
+        ],
+        "CellType": [
+          "uazid:UA-CT-100030"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "blocked",
+    "evidence": [
+      "TEA blocked water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232473"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P29972",
+        "entity_text": "AQP1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Organ": [
+          "uazid:UA-ORG-461"
+        ],
+        "CellType": [
+          "uazid:UA-CT-100030"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "blocked",
+    "evidence": [
+      "TEA blocked water permeability of AQP1"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232474"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibits",
+    "evidence": [
+      "TEA selectively inhibits osmotic water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232475"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibits",
+    "evidence": [
+      "TEA at 0.1 to 10 mM also inhibits osmotic water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232476"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:43228",
+        "entity_text": "water",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR000818",
+        "entity_text": "TEA",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-08T14:49:54Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-08T14:48:55Z",
+    "trigger": "inhibition",
+    "evidence": [
+      "TEA inhibition of water"
+    ],
+    "pmc_id": "100781",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232477"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1",
+        "entity_text": "norepinephrine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "elicited",
+    "evidence": [
+      "ERK responses elicited by both norepinephrine"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232478"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:15553",
+        "entity_text": "PGF2alpha",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "induced",
+    "evidence": [
+      "ERK activation induced by norepinephrine and PGF2alpha"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232479"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1",
+        "entity_text": "norepinephrine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activate",
+    "evidence": [
+      "norepinephrine and PGF2alpha activate ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323247a"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:15553",
+        "entity_text": "PGF2alpha",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activate",
+    "evidence": [
+      "PGF2alpha activate ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323247b"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uazid:UAZ03781",
+        "entity_text": "GPCRs",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activate",
+    "evidence": [
+      "GPCRs activate ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323247c"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1",
+        "entity_text": "norepinephrine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "Activation",
+    "evidence": [
+      "Activation of ERK by norepinephrine"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323247d"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:33375",
+        "entity_text": "Gadolinium",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "Gadolinium also decreased the A23187-induced activation of ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323247e"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1",
+        "entity_text": "norepinephrine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": true
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activation",
+    "evidence": [
+      "activation of ERK by norepinephrine"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323247f"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P62158",
+        "entity_text": "calmodulin",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:9709",
+        "entity_text": "trifluoperazine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibitors",
+    "evidence": [
+      "calmodulin inhibitors trifluoperazine"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232480"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P62158",
+        "entity_text": "calmodulin",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activation",
+    "evidence": [
+      "calmodulin-mediated activation of ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232481"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ12376",
+        "entity_text": "src kinases",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "CellType": [
+          "uniprot:TS-0454"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "attenuate",
+    "evidence": [
+      "src kinases attenuate ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232482"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:15553",
+        "entity_text": "PGF2alpha",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "elicited",
+    "evidence": [
+      "ERK responses elicited by both norepinephrine and PGF2alpha"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232483"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "Src inhibitors PP1 and PP2, which are reported to primarily inhibit the Lck, Fyn, and Hck subtypes of Src kinases , markedly decreased the PGF2alpha-induced ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232484"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "PP1 and PP2, which are reported to primarily inhibit the Lck, Fyn, and Hck subtypes of Src kinases , markedly decreased the PGF2alpha-induced ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232485"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q99463",
+        "entity_text": "PP2",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "PP2, which are reported to primarily inhibit the Lck, Fyn, and Hck subtypes of Src kinases , markedly decreased the PGF2alpha-induced ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232486"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibitors",
+    "evidence": [
+      "Src inhibitors PP1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232487"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:15553",
+        "entity_text": "PGF2alpha",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "induced",
+    "evidence": [
+      "PGF2alpha-induced ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232488"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06239",
+        "entity_text": "Lck",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "Src inhibitors PP1 and PP2, which are reported to primarily inhibit the Lck"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232489"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06241",
+        "entity_text": "Fyn",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "Src inhibitors PP1 and PP2, which are reported to primarily inhibit the Lck, Fyn"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323248a"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P08631",
+        "entity_text": "Hck",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "Src inhibitors PP1 and PP2, which are reported to primarily inhibit the Lck, Fyn, and Hck"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323248b"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06239",
+        "entity_text": "Lck",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "PP1 and PP2, which are reported to primarily inhibit the Lck"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323248c"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06241",
+        "entity_text": "Fyn",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "PP1 and PP2, which are reported to primarily inhibit the Lck, Fyn"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323248d"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "diminished",
+    "evidence": [
+      "Src kinase inhibitors PP1 and PP2 partially diminished the ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323248e"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P08631",
+        "entity_text": "Hck",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "PP1 and PP2, which are reported to primarily inhibit the Lck, Fyn, and Hck"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323248f"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06239",
+        "entity_text": "Lck",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q99463",
+        "entity_text": "PP2",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "PP2, which are reported to primarily inhibit the Lck"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232490"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06241",
+        "entity_text": "Fyn",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q99463",
+        "entity_text": "PP2",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "PP2, which are reported to primarily inhibit the Lck, Fyn"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232491"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P08631",
+        "entity_text": "Hck",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q99463",
+        "entity_text": "PP2",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibit",
+    "evidence": [
+      "PP2, which are reported to primarily inhibit the Lck, Fyn, and Hck"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232492"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "induced",
+    "evidence": [
+      "PP1 (20 muM) on thapsigargin-induced ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232493"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:33375",
+        "entity_text": "gadolinium",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "ERK1/2 response was decreased by chelation of intracellular and extracellular Ca2+ with BAPTA-AM and EGTA, respectively, as well as by gadolinium"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232494"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1",
+        "entity_text": "norepinephrine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activate",
+    "evidence": [
+      "norepinephrine and PGF2alpha activate ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232495"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:15553",
+        "entity_text": "PGF2alpha",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "activate",
+    "evidence": [
+      "PGF2alpha activate ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232496"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P62158",
+        "entity_text": "calmodulin",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:9709",
+        "entity_text": "trifluoperazine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Organ": [
+          "uazid:UA-ORG-520"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibitors",
+    "evidence": [
+      "calmodulin inhibitors trifluoperazine"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232497"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": true
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "ERK1/2 activation induced by the Ca2+ ionophore A23187 or by thapsigargin was partially decreased by Src"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232498"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P50391",
+        "entity_text": "PP1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "diminished",
+    "evidence": [
+      "PP1 and PP2 partially diminished the ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f78373232499"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P27361",
+        "entity_text": "ERK1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P34722",
+        "entity_text": "PKC",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": true
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "inhibited",
+    "evidence": [
+      "PKC almost completely inhibited ERK1"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323249a"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q99463",
+        "entity_text": "PP2",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "diminished",
+    "evidence": [
+      "PP2 partially diminished the ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323249b"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P62158",
+        "entity_text": "calmodulin",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "calmodulin antagonists W-7, trifluoperazine, and J-8 markedly decreased ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323249c"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:9709",
+        "entity_text": "trifluoperazine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "trifluoperazine, and J-8 markedly decreased ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323249d"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q9SAG8",
+        "entity_text": "J-8",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "decreased",
+    "evidence": [
+      "J-8 markedly decreased ERK"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323249e"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR008349",
+        "entity_text": "ERK",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:1",
+        "entity_text": "norepinephrine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T11:58:52Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T11:58:03Z",
+    "trigger": "induced",
+    "evidence": [
+      "ERK activation induced by norepinephrine"
+    ],
+    "pmc_id": "100782",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f7837323249f"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "inhibits_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR020849",
+        "entity_text": "Ras",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ1247261",
+        "entity_text": "RPR-130401",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "CellType": [
+          "uniprot:TS-0114"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "inhibits",
+    "evidence": [
+      "RPR-130401 efficiently inhibits Ras farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a0"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uazid:UAZ1247370",
+        "entity_text": "unfarnesylated prelamin A",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ63336",
+        "entity_text": "SCH-66336",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "allows",
+    "evidence": [
+      "SCH-66336, another FTI, reportedly allows accumulation of unfarnesylated prelamin A"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a1"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR027696",
+        "entity_text": "lamin",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "lamin B farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a2"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uazid:UAZ63300",
+        "entity_text": "FTase",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ69644",
+        "entity_text": "FTI-277",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "inhibitor",
+    "evidence": [
+      "FTase inhibitor FTI-277"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a3"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR027696",
+        "entity_text": "lamin",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "lamin B farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a4"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR027696",
+        "entity_text": "lamin",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "CellType": [
+          "uniprot:TS-0114"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "lamin B farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a5"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "binds",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR020849",
+        "entity_text": "Ras",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UA-BP-GGP-00049",
+        "entity_text": "GTP",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "binding",
+    "evidence": [
+      "Ras-related GTP-binding"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a6"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P01112",
+        "entity_text": "p21Ras",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "farnesylation of p21Ras"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a7"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": true,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P01112",
+        "entity_text": "p21Ras",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ1247261",
+        "entity_text": "RPR-130401",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "block",
+    "evidence": [
+      "RPR-130401 is not able to block p21Ras"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a8"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P01112",
+        "entity_text": "p21Ras",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "p21Ras farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324a9"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P01112",
+        "entity_text": "p21Ras",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "p21Ras farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229bc712f783732324aa"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "farnesylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR027696",
+        "entity_text": "Lamin",
+        "entity_type": "family"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T22:14:53Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T22:13:55Z",
+    "trigger": "farnesylation",
+    "evidence": [
+      "Lamin B farnesylation"
+    ],
+    "pmc_id": "100785",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324ab"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P06493",
+        "entity_text": "cdc2",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:Q13972",
+        "entity_text": "cdc25",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T00:27:15Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T00:26:28Z",
+    "trigger": "results",
+    "evidence": [
+      "This results in cdc2 remaining phosphorylated"
+    ],
+    "pmc_id": "101225",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324ac"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:Q13972",
+        "entity_text": "cdc25",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:O14757",
+        "entity_text": "chk1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-11T00:27:15Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-11T00:26:28Z",
+    "trigger": "induces",
+    "evidence": [
+      "chk1, which induces the phosphorylation of cdc25"
+    ],
+    "pmc_id": "101225",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324ad"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:4072",
+        "entity_text": "cytosine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "methylation",
+    "evidence": [
+      "methylation of cytosine"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324ae"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "position": "tyrosine",
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P12931",
+        "entity_text": "Src",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "Src tyrosine kinases phosphorylation"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324af"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "position": "tyrosine",
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uazid:UAZ17103",
+        "entity_text": "phospholipase Cgamma",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "tyrosine kinases phosphorylation, phospholipase Cgamma"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b0"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "position": "tyrosine",
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "hmdb:HMDB02985",
+        "entity_text": "inositol phosphate",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "tyrosine kinases phosphorylation, phospholipase Cgamma regulation, inositol phosphate"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b1"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "position": "tyrosine",
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:41847",
+        "entity_text": "diacylglycerol",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "tyrosine kinases phosphorylation, phospholipase Cgamma regulation, inositol phosphate production, diacylglycerol"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b2"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "position": "tyrosine",
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P34722",
+        "entity_text": "PKC",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "tyrosine kinases phosphorylation, phospholipase Cgamma regulation, inositol phosphate production, diacylglycerol production, PKC"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b3"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "position": "tyrosine",
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:22984",
+        "entity_text": "calcium",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "tyrosine kinases phosphorylation, phospholipase Cgamma regulation, inositol phosphate production, diacylglycerol production, PKC activation, and calcium"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b4"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uazid:UA-BP-GGP-00007",
+        "entity_text": "antigen",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P09382",
+        "entity_text": "Gal1",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "induced",
+    "evidence": [
+      "Gal1 as well as AzaC induced an expression of the cell surface plasma cell antigen"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b5"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P31040",
+        "entity_text": "FP",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:O60936",
+        "entity_text": "ARC",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "supported",
+    "evidence": [
+      "FP was supported by ARC"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b6"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "interpro:IPR013922",
+        "entity_text": "cyclin",
+        "entity_type": "family"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P0C044",
+        "entity_text": "p16",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "suppresses",
+    "evidence": [
+      "p16 suppresses S-phase entry by antagonising the cyclin"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b7"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P11802",
+        "entity_text": "CDK4",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P0C044",
+        "entity_text": "p16",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "suppresses",
+    "evidence": [
+      "p16 suppresses S-phase entry by antagonising the cyclin-dependent kinases CDK4"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b8"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:Q00534",
+        "entity_text": "CDK6",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P0C044",
+        "entity_text": "p16",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "suppresses",
+    "evidence": [
+      "p16 suppresses S-phase entry by antagonising the cyclin-dependent kinases CDK4 and CDK6"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324b9"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "phosphorylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P07948",
+        "entity_text": "Lyn",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false,
+      "context": {
+        "Species": [
+          "taxonomy:9606"
+        ],
+        "CellType": [
+          "uniprot:TS-0547"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "phosphorylation",
+    "evidence": [
+      "phosphorylation of Lyn"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324ba"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P09382",
+        "entity_text": "Gal1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ94152",
+        "entity_text": "AzaC",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": true,
+      "context": {
+        "Species": [
+          "taxonomy:41568"
+        ],
+        "CellType": [
+          "uniprot:TS-0585"
+        ]
+      }
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "induce",
+    "evidence": [
+      "AzaC is able to induce the expression of Gal1"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324bb"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "decreases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uazid:UAZ17483",
+        "entity_text": "CD71",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UA-ORG-381",
+        "entity_text": "hand",
+        "entity_type": "organ"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "decreased",
+    "evidence": [
+      "it decreased the expression of CD71"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324bc"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "increases_activity",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P09382",
+        "entity_text": "Gal1",
+        "entity_type": "protein"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uazid:UAZ556771",
+        "entity_text": "BL36",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "induces",
+    "evidence": [
+      "BL36 with AzaC induces expression of Gal1"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324bd"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:4072",
+        "entity_text": "cytosine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-09T12:33:42Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-09T12:32:37Z",
+    "trigger": "methylation",
+    "evidence": [
+      "cytosine methylation"
+    ],
+    "pmc_id": "101226",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324be"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:2643",
+        "entity_text": "arginine",
+        "entity_type": "site"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T12:12:05Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T12:11:42Z",
+    "trigger": "methylated",
+    "evidence": [
+      "its methylated"
+    ],
+    "pmc_id": "101227",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324bf"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P42684",
+        "entity_text": "Arg",
+        "features": [
+          {
+            "modification_type": "methylated",
+            "feature_type": "modification"
+          }
+        ],
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T12:12:05Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T12:11:42Z",
+    "trigger": "methylated",
+    "evidence": [
+      "methylated and hydroxymethylated Arg"
+    ],
+    "pmc_id": "101227",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324c0"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P42684",
+        "entity_text": "Arg",
+        "features": [
+          {
+            "modification_type": "methylated",
+            "feature_type": "modification"
+          }
+        ],
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T12:12:05Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T12:11:42Z",
+    "trigger": "methylated",
+    "evidence": [
+      "methylated and hydroxymethylated Arg"
+    ],
+    "pmc_id": "101227",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324c1"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "uniprot:P42684",
+        "entity_text": "Arg",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T12:12:05Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T12:11:42Z",
+    "trigger": "methylated",
+    "evidence": [
+      "its methylated"
+    ],
+    "pmc_id": "101227",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324c2"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "binds",
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:16842",
+        "entity_text": "formaldehyde",
+        "entity_type": "simple_chemical"
+      },
+      "participant_a": {
+        "in_model": true,
+        "identifier": "uniprot:P42684",
+        "entity_text": "Arg",
+        "entity_type": "protein"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T12:12:05Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T12:11:42Z",
+    "trigger": "interaction",
+    "evidence": [
+      "interaction between Arg and formaldehyde"
+    ],
+    "pmc_id": "101227",
+    "score": 0
+  },
+  {
+    "_id": {
+      "$oid": "56a4229cc712f783732324c3"
+    },
+    "submitter": "Reach",
+    "model_relation": "extension",
+    "extracted_information": {
+      "interaction_type": "adds_modification",
+      "modifications": [
+        {
+          "modification_type": "methylation"
+        }
+      ],
+      "negative_information": false,
+      "participant_b": {
+        "in_model": true,
+        "identifier": "chebi:CHEBI:6185",
+        "entity_text": "L-arginine",
+        "entity_type": "simple_chemical"
+      },
+      "hypothesis_information": false
+    },
+    "reading_complete": "2016-01-10T12:12:05Z",
+    "reader_type": "machine",
+    "reading_started": "2016-01-10T12:11:42Z",
+    "trigger": "methylated",
+    "evidence": [
+      "its methylated"
+    ],
+    "pmc_id": "101227",
+    "score": 0
+  }
+]

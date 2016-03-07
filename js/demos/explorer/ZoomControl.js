@@ -9,6 +9,22 @@ var ZoomControl = function (container) {
 
     };
 
+      self.zoomOut = function () {
+        var currentScale = _zoomBehaviour.scale();
+        //if(currentScale >= _zoomBehaviour.scaleExtent()[0] - 0.5)
+            setZoom(_zoomBehaviour.scale()*0.6);
+    };
+
+    self.zoomIn = function () {
+        var currentScale = _zoomBehaviour.scale();
+        if(currentScale <= _zoomBehaviour.scaleExtent()[1]*1.5)
+            setZoom(_zoomBehaviour.scale()*1.5);
+    };
+
+
+
+
+
     var init = function () {
         var zoomContainer =
             container.append('div')
@@ -33,3 +49,4 @@ var ZoomControl = function (container) {
 
     return self;
 };
+
