@@ -15,15 +15,19 @@ var svg = d3.select("body").append("svg")
 
 //Setting up the force layout
 var force = d3.layout.force()
-    .charge(-05)
+    .charge(-10)
     .linkDistance(100)
-    .gravity(0.001)
+    .gravity(0.0001)
     .size([width, height]);
 
-var forceLabel = d3.layout.force()
-  .gravity(0).linkDistance(10)
-  .linkStrength(20).charge(-80)
-  .size([width, height]);
+  var backupNodes=[];
+  var backupLinks=[];
+
+
+// var forceLabel = d3.layout.force()
+//   .gravity(0).linkDistance(10)
+//   .linkStrength(20).charge(-80)
+//   .size([width, height]);
 
 // svg.call(tip);
 
@@ -34,8 +38,8 @@ var nodes = [];
 var links = [];
 var nodes2 = [];
 var links2 = [];
-var labelAnchors = [];
-var labelAnchorLinks = [];
+// var labelAnchors = [];
+// var labelAnchorLinks = [];
 
 // force
 //     // .nodes(viewNodes)
@@ -101,10 +105,12 @@ loadData.on('click', function() {
     .filter(function(d) { return d});
     // debugger
 
+// Print all the nodes. Only the nodes and not the links
+
   var viewLinks = [];
 
   render(viewNodes, viewLinks)
-
+// debugger
 });
 
 function nodeClicked(d) {
@@ -131,6 +137,7 @@ function nodeClicked(d) {
      // if (! isInArray) 
         viewNodes.push(link.source);
       // debugger
+
     }
 
     else if(link.target.fields.entity_text === d.fields.entity_text) {
@@ -145,11 +152,21 @@ function nodeClicked(d) {
     }
   })
 
- 
+  viewNodes = _.uniq(viewNodes,false, function(d){return d.fields.entity_text});
+  // viewLinks = _.uniq(viewLinks,false, function(d){return d.entity_text});
+
+  
+ viewLinks = viewLinks.concat(backupLinks);
+ viewNodes = viewNodes.concat(backupNodes);
+ console.log(viewNodes);
   // TODO: Remove duplicates!
   // debugger
-
+viewNodes = _.uniq(viewNodes,false, function(d){return d.fields.entity_text});
   render(viewNodes, viewLinks);
+    backupLinks = viewLinks;
+  backupNodes = viewNodes;
+ // debugger
+
 }
 
 function render(viewNodes, viewLinks) {
@@ -158,6 +175,7 @@ function render(viewNodes, viewLinks) {
   force
     .nodes(viewNodes)
     .links(viewLinks)
+    // .on("tick", tick)
     .start();
 
   var link = svg.selectAll(".link")
@@ -174,13 +192,14 @@ function render(viewNodes, viewLinks) {
 
   link.exit().remove();
 
-  var node = svg.selectAll(".node").data(viewNodes); // "Update"
+  var node = svg.selectAll(".node")
+                .data(viewNodes); // "Update"
 
   var entered_node = node.enter()
     .append('g')
     .attr("class", "node")
     .call(force.drag)
-    .on('click', nodeClicked)
+    .on('dblclick', nodeClicked)
 
     entered_node.append("rect") // "Enter"
 
@@ -256,6 +275,7 @@ function render(viewNodes, viewLinks) {
 };
 
 force.on("tick", function() {
+
   svg.selectAll('.link')
     .attr("x1", function(d) { return d.source.x; })
     .attr("y1", function(d) { return d.source.y; })
@@ -265,4 +285,18 @@ force.on("tick", function() {
   svg.selectAll('.node')
   .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
 });
-//
+// function tick(e) {
+//   var k = 6 * e.alpha;
+//   svg.selectAll(".link")
+//         .each(function(d) { d.source.py -= k, d.target.py += k; })
+//         .attr("x1", function(d) { return d.source.x; })
+//         .attr("y1", function(d) { return d.source.y; })
+//         .attr("x2", function(d) { return d.target.x; })
+//         .attr("y2", function(d) { return d.target.y; });
+
+//   svg.selectAll('.node')
+//    // .attr("dx", function(d) { return d.x; })
+//    //      .attr("dy", function(d) { return d.y; });
+//   .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')'; })
+// };
+// //
