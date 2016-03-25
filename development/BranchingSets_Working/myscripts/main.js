@@ -14,10 +14,16 @@ var svg = d3.select("body").append("svg")
     .attr("height", height);
 
 //Setting up the force layout
-var force = d3.layout.force()
-    .charge(-10)
+// var force = d3.layout.force()
+//     .charge(-10)
+//     .linkDistance(100)
+//     .gravity(0.0001)
+//     .size([width, height]);
+
+
+//setting up cola force layout
+var force = cola.d3adaptor()
     .linkDistance(100)
-    .gravity(0.0001)
     .size([width, height]);
 
   var backupNodes=[];
@@ -76,6 +82,7 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
         l.type = type;
 
         l.name = node1.fields.entity_text+"__"+node2.fields.entity_text;
+
         links.push(l);
       }
     });
@@ -84,6 +91,7 @@ d3.json("data/cardsWithContextData.json", function(error, data_) {
             var newNode = {};
             newNode.fields = fields;
             newNode.id = nodes.length;
+            newNode.neighbor= false;
             nodes.push(newNode);
             nameToNode[fields.entity_text] = newNode;
             return newNode;
@@ -114,7 +122,7 @@ loadData.on('click', function() {
 });
 
 function nodeClicked(d) {
-  console.log(d);
+  console.log(d.fields.entity_text);
   // debugger
   // Find this node's links
   // Find all the nodes that are linked to
@@ -136,6 +144,7 @@ function nodeClicked(d) {
       // isInArray = viewNodes.some(function(_node) { return _node === link.source })
      // if (! isInArray) 
         viewNodes.push(link.source);
+
       // debugger
 
     }
@@ -149,6 +158,7 @@ function nodeClicked(d) {
       //isInArray = viewNodes.some(function(_node) { return _node === link.source })
      // if (! isInArray) 
         viewNodes.push(link.target);
+        // debugger
     }
   })
 
@@ -162,6 +172,8 @@ function nodeClicked(d) {
   // TODO: Remove duplicates!
   // debugger
 viewNodes = _.uniq(viewNodes,false, function(d){return d.fields.entity_text});
+console.log(viewNodes);
+checkForNeighbors(viewNodes);
   render(viewNodes, viewLinks);
     backupLinks = viewLinks;
   backupNodes = viewNodes;
@@ -169,12 +181,78 @@ viewNodes = _.uniq(viewNodes,false, function(d){return d.fields.entity_text});
 
 }
 
+
+function checkForNeighbors(d){
+
+   var viewLinks = [];
+   var viewNodes = [];
+
+  d.forEach(function(object){
+    console.log(object.fields.entity_text)
+  links.forEach(function(link) {
+    if(link.source.fields.entity_text === object.fields.entity_text) {
+      viewLinks.push(link);
+      
+      // Make sure that link.target is not already in viewNodes
+      // var isInArray = viewNodes.some(function(_node) { return _node === link.target })
+      //if (! isInArray) 
+        viewNodes.push(link.target);
+      // isInArray = viewNodes.some(function(_node) { return _node === link.source })
+     // if (! isInArray) 
+        viewNodes.push(link.source);
+
+
+
+      // debugger
+
+    }
+
+    else if(link.target.fields.entity_text === object.fields.entity_text) {
+      viewLinks.push(link);
+      // Make sure that link.target is not already in viewNodes
+      // var isInArray = viewNodes.some(function(_node) { return _node === link.target })
+      // if (! isInArray) 
+        viewNodes.push(link.source);
+      //isInArray = viewNodes.some(function(_node) { return _node === link.source })
+     // if (! isInArray) 
+        viewNodes.push(link.target);
+        // debugger
+    }
+  })
+
+  viewNodes = _.uniq(viewNodes,false, function(d){return d.fields.entity_text});
+  // viewLinks = _.uniq(viewLinks,false, function(d){return d.entity_text});
+
+  
+ // viewLinks = viewLinks.concat(backupLinks);
+ // viewNodes = viewNodes.concat(backupNodes);
+ // console.log(viewNodes);
+  // TODO: Remove duplicates!
+  // debugger
+// viewNodes = _.uniq(viewNodes,false, function(d){return d.fields.entity_text});
+console.log(viewNodes);
+if(viewNodes.length === d.length){
+console.log("NO Neighbors");
+
+}
+else{
+console.log("It Has");
+object.neighbor= true;
+}
+});
+
+}
+
+
+
 function render(viewNodes, viewLinks) {
   console.log('render')
 
   force
     .nodes(viewNodes)
     .links(viewLinks)
+
+    .flowLayout("y", 100) // for hirarchy
     // .on("tick", tick)
     .start();
 
@@ -210,9 +288,14 @@ function render(viewNodes, viewLinks) {
               height: 20,
               rx : 3,
               ry : 3,
-              fill: '#d28460'
+              // fill: '#d28460'
           })
-    .style("fill", "#444")
+    .style("fill", function(d){
+      if(d.neighbor==true){
+        return "#d62728"
+      }
+      else {return "#444";}
+    })
     .style("stroke", "#eee")
     .style("stroke-opacity", 0.5)
     .style("stroke-width", 0.3)
