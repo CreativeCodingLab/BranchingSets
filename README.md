@@ -6,7 +6,7 @@ Visit the following link to try a demo of the application: [BranchingSets Demo](
 
 ### images of BranchingSets 
 
-![Image 1](https://github.com/CreativeCodingLab/BranchingSets/raw/master/screenshots/Figure_9_use0.png)
+![Image 1](https://github.com/CreativeCodingLab/BranchingSets/raw/master/screenshots/Figure_10_use1.png)
 
 ***
 
